@@ -89,7 +89,7 @@ export const CreateUserForm = () => {
 
               <Form.Field>
                 <View className="flex-row items-center justify-between">
-                  <Text>Techs</Text>
+                  <Form.Label>Techs</Form.Label>
                   <TouchableOpacity onPress={addTech}>
                     <Text className="text-emerald-500 text-sm">Add tech</Text>
                   </TouchableOpacity>
